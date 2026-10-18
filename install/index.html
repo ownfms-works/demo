@@ -104,15 +104,15 @@
     <ul class="chapters" aria-label="Chapters (open on Vimeo at that moment)">
       <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=0s" target="_blank" rel="noopener"><span class="m">0:00</span><span class="t">Opening</span></a></li>
       <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=19s" target="_blank" rel="noopener"><span class="m">0:19</span><span class="t">What you need</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=128s" target="_blank" rel="noopener"><span class="m">2:08</span><span class="t">Create the server</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=221s" target="_blank" rel="noopener"><span class="m">3:41</span><span class="t">Create a setup key</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=281s" target="_blank" rel="noopener"><span class="m">4:41</span><span class="t">Open the installer</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=352s" target="_blank" rel="noopener"><span class="m">5:52</span><span class="t">Install</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=442s" target="_blank" rel="noopener"><span class="m">7:22</span><span class="t">Sign in and look around</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=479s" target="_blank" rel="noopener"><span class="m">7:59</span><span class="t">Add your people</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=526s" target="_blank" rel="noopener"><span class="m">8:46</span><span class="t">Lock it down</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=574s" target="_blank" rel="noopener"><span class="m">9:34</span><span class="t">Keep it current</span></a></li>
-      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=608s" target="_blank" rel="noopener"><span class="m">10:08</span><span class="t">Where to go next</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=119s" target="_blank" rel="noopener"><span class="m">1:59</span><span class="t">Create the server</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=211s" target="_blank" rel="noopener"><span class="m">3:31</span><span class="t">Create a setup key</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=271s" target="_blank" rel="noopener"><span class="m">4:31</span><span class="t">Open the installer</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=343s" target="_blank" rel="noopener"><span class="m">5:43</span><span class="t">Install</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=433s" target="_blank" rel="noopener"><span class="m">7:13</span><span class="t">Sign in and look around</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=469s" target="_blank" rel="noopener"><span class="m">7:49</span><span class="t">Add your people</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=517s" target="_blank" rel="noopener"><span class="m">8:37</span><span class="t">Lock it down</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=565s" target="_blank" rel="noopener"><span class="m">9:25</span><span class="t">Keep it current</span></a></li>
+      <li><a href="https://vimeo.com/1235220693/2e1a2ce60a#t=599s" target="_blank" rel="noopener"><span class="m">9:59</span><span class="t">Where to go next</span></a></li>
     </ul>
     <p class="note">Chapter links open the video on Vimeo at that point.</p>
   </section>
@@ -126,7 +126,7 @@
       <li><strong>Open the installer</strong> at <a href="https://ownfms-works.github.io/installer/" target="_blank" rel="noopener">ownfms-works.github.io/installer</a>. Paste the server address, client ID and secret, then press <em>Test connection</em>. This only reads, so it is safe.</li>
       <li><strong>Install.</strong> Keep <em>Load the sample data</em> on for a first install. Confirm that the server is dedicated to this and that you accept the software is provided as is. Keep <em>Revoke this setup key when the install finishes</em> ticked and press <em>Install</em>. It takes a couple of minutes, runs its own checks (expect no failures) and then revokes the setup key.</li>
       <li><strong>Look around.</strong> Open your server address followed by <code>/compose/ns/OWNFMS/</code>. The three sample sign-ins (Staff, Manager and Demo Viewer) are optional, and each needs a password you choose.</li>
-      <li><strong>Lock it down.</strong> If you kept the box ticked, the setup key is already revoked, and <em>Auth Clients</em> no longer lists it. In your first week: change the administrator password and turn on multi-factor authentication (your server address followed by <code>/auth/security</code>); create a user for each person under <em>Admin</em> &gt; <em>Users</em> with the Staff or Manager role, and share the administrator login with nobody; confirm that your host's backups are on; and hold off uploading sensitive documents until Corteza fixes CVE-2026-108729, which lets anyone with a file's link download it. The README's <em>Your first week</em> section has the full list and the reasons.</li>
+      <li><strong>Lock it down.</strong> If you kept the box ticked, the setup key is already revoked, and <em>Auth Clients</em> no longer lists it. In your first week: change the administrator password and turn on multi-factor authentication (your server address followed by <code>/auth/security</code>); create a user for each person under <em>Admin</em> &gt; <em>Users</em> with the Staff or Manager role, and share the administrator login with nobody; and confirm that your host's backups are on. The README's <em>Your first week</em> section has the full list and the reasons.</li>
       <li><strong>Keep it current (optional).</strong> A small job, <code>run_jobs.py</code>, fills in automatic reference numbers, due flags, budget status, the payments check and each grant's History tab. It should run every few minutes, and the README's <em>Keeping it up to date</em> section explains how to schedule it.</li>
     </ol>
     <p class="note">The secret you paste into the installer goes only to your own server and is not stored. Use at your own risk: the software is provided as is, without warranty.</p>
